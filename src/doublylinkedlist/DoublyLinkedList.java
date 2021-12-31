@@ -36,7 +36,7 @@ public class DoublyLinkedList {
         }
         Node temp=tail;
         temp.next=node;
-        temp.previous=temp;
+        node.previous=temp;
         tail=node;
     }
 
